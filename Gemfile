@@ -7,7 +7,7 @@ group :test do
   gem 'mysql'
   gem 'rspec', "~>1.3"
   gem 'rspec-rails', "~>1.3"
-  gem 'factory_girl', "~>1.3"
+  gem 'factory_girl', "~>2.0.3"
   gem 'database_cleaner'
   gem 'test-unit', '1.2.3'
   gem 'RedCloth', "~> 4.2.9"
