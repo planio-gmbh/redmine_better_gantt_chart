@@ -4,7 +4,6 @@ source 'http://gems.github.com'
 group :test do
   gem 'rake'
   gem 'sqlite3'
-  gem 'mysql'
   gem 'rspec', "1.3.1"
   gem 'rspec-rails', "1.3.3"
   gem 'factory_girl', "~>2.0.3"
