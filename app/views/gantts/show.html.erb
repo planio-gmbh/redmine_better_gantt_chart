@@ -154,6 +154,7 @@
         work_days = @gantt.work_days_in(Date.new(year + 1), @gantt.date_from)
         months_remaining -= 12 - (@gantt.date_from.month).to_i - 1
       elsif months_remaining < 12
+        months_remaining = 0 if months_remaining < 0
         work_days = @gantt.work_days_in(Date.new(year, months_remaining+1, 1), Date.new(year))
         months_remaining = 0
       else
